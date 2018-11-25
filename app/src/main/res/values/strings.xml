@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SF Quiz</string>
+    <string name="question">Qestions answered:</string>
+    <string name="score">Points:</string>
+    <string name="Ques1">Verne and Wells first names:</string>
+    <string name="askquestion">Question:</string>
+    <string name="ans1_1">Jules and Jim</string>
+    <string name="ans1_2">Gabriel and George</string>
+    <string name="ans1_3">J and H</string>
+    <string name="ans1_4">Jules and Herbert</string>
+</resources>

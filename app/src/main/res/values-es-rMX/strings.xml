@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SF Quiz</string>
+    <string name="score">Punteo:</string>
+    <string name="question">Respuestas:</string>
+    <string name="Ques1">Los nombres de Verne y Wells</string>
+    <string name="askquestion">Cuestión</string>
+    <string name="ans1_2">Gabriel y George</string>
+    <string name="ans1_1">Jules y Jim</string>
+    <string name="ans1_3">J y H</string>
+    <string name="ans1_4">Jules y Herbert</string>
+</resources>
