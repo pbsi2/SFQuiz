@@ -2,11 +2,26 @@
 <resources>
     <string name="app_name">SF Quiz</string>
     <string name="score">Punteo:</string>
-    <string name="question">Respuestas:</string>
+    <string name="question">Cuestión</string>
     <string name="Ques1">Los nombres de Verne y Wells</string>
     <string name="askquestion">Cuestión</string>
     <string name="ans1_2">Gabriel y George</string>
     <string name="ans1_1">Jules y Jim</string>
     <string name="ans1_3">J y H</string>
     <string name="ans1_4">Jules y Herbert</string>
+    <string name="Ques2">Steven Cambell Hero\'s stories:</string>
+    <string name="ans2_1">Hard Luck Hank: Robot Farts</string>
+    <string name="ans2_2">Hard Luck Hank: Basketful Of Crap</string>
+    <string name="ans2_3">Hard Luck Hank: Prince Of Socks</string>
+    <string name="ans2_4">Rules for Glocken</string>
+    <string name="Ques3">¿Qué novela ganó el premio Hugo 2006 a Robert Charles Wilson?</string>
+    <string name="ansprompt">Responder:</string>
+    <string name="title">" Título"</string>
+    <string name="button">Enviar</string>
+    <string name="Ques4">Nombre de la embarcación en \"Rendezvous with Rama\"</string>
+    <string name="ans4_1">Ephitète</string>
+    <string name="ans4_2">Honu</string>
+    <string name="ans4_3">Endeavour</string>
+    <string name="ans4_4">Rangatira</string>
+    <string name="ans3_1">spin</string>
 </resources>

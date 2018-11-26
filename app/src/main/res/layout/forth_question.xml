@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/QuestionViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Ques4"
+        android:textColor="@color/colorAccent" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:theme="@style/AppTheme">
+
+        <RadioButton
+            android:id="@+id/ans4_1_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="forthQuestion"
+            android:text="@string/ans4_1" />
+
+        <RadioButton
+            android:id="@+id/ans4_2_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="forthQuestion"
+            android:text="@string/ans4_2" />
+
+        <RadioButton
+            android:id="@+id/ans4_3_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="forthQuestion"
+            android:text="@string/ans4_3" />
+
+        <RadioButton
+            android:id="@+id/ans4_4_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="forthQuestion"
+            android:text="@string/ans4_4" />
+    </RadioGroup>
+
+</LinearLayout>

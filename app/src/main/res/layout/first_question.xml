@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/QuestionViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Ques1"
+        android:textColor="@color/colorAccent" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:theme="@style/AppTheme">
+
+        <RadioButton
+            android:id="@+id/ans1RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="firstQuestion"
+            android:text="@string/ans1_3" />
+
+        <RadioButton
+            android:id="@+id/ans2RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="firstQuestion"
+            android:text="@string/ans1_1" />
+
+        <RadioButton
+            android:id="@+id/ans3RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="firstQuestion"
+            android:text="@string/ans1_2" />
+
+        <RadioButton
+            android:id="@+id/ans4RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="firstQuestion"
+            android:text="@string/ans1_4" />
+    </RadioGroup>
+
+</LinearLayout>

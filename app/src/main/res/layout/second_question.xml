@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/QuestionViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Ques2"
+        android:textColor="@color/colorAccent" />
+
+    <CheckBox
+        android:id="@+id/first_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ans2_1" />
+
+    <CheckBox
+        android:id="@+id/second_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ans2_2" />
+
+    <CheckBox
+        android:id="@+id/third_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ans2_3" />
+
+    <CheckBox
+        android:id="@+id/forth_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ans2_4" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="secondQuestion"
+        android:text="@string/button" />
+
+</LinearLayout>

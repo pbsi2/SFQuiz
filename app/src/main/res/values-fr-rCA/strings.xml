@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SF Quiz</string>
-    <string name="question">Réponses:</string>
+    <string name="question">"Question No. "</string>
     <string name="score">Pointage:</string>
     <string name="Ques1">Prénoms de Verne at Wells</string>
     <string name="askquestion">Question</string>
@@ -9,4 +9,19 @@
     <string name="ans1_2">Gabriel et George</string>
     <string name="ans1_3">J et H</string>
     <string name="ans1_4">Jules et Herbert</string>
+    <string name="Ques2">Livres du Hero de Steven Cambell</string>
+    <string name="ans2_1">Hard Luck Hank: Robot s pètent le feu</string>
+    <string name="ans2_2">Hard Luck Hank: Un Panier plein de marde</string>
+    <string name="ans2_3">Hard Luck Hank: Un Prince nue bas</string>
+    <string name="ans2_4">Règles du Glocken</string>
+    <string name="Ques3">Pour quel roman Robert Charles Wilson ganat le prix Hugo in 2006?</string>
+    <string name="ansprompt">Réponse:</string>
+    <string name="title">Titre</string>
+    <string name="button">Soumettre</string>
+    <string name="Ques4">Nom du vaiseau dans \"Rendezvous with Rama\"</string>
+    <string name="ans4_1">Ephitète</string>
+    <string name="ans4_2">Honu</string>
+    <string name="ans4_3">Endeavour</string>
+    <string name="ans4_4">Rangatira</string>
+    <string name="ans3_1">spin</string>
 </resources>
