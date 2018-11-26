@@ -190,18 +190,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void fillGrades(){
-        EditText t1 = (EditText) findViewById(R.id.try1_edit);
-        EditText t2 = (EditText) findViewById(R.id.try2_edit);
-        EditText t3 = (EditText) findViewById(R.id.try3_edit);
-        EditText t4 = (EditText) findViewById(R.id.try4_edit);
+        EditText t1 = findViewById(R.id.try1_edit);
+        EditText t2 = findViewById(R.id.try2_edit);
+        EditText t3 = findViewById(R.id.try3_edit);
+        EditText t4 = findViewById(R.id.try4_edit);
         t1.setText(String.valueOf(question_1_tries));
         t2.setText(String.valueOf(question_2_tries));
         t3.setText(String.valueOf(question_3_tries));
         t4.setText(String.valueOf(question_4_tries));
-        EditText p1 = (EditText) findViewById(R.id.point1_edit);
-        EditText p2 = (EditText) findViewById(R.id.point2_edit);
-        EditText p3 = (EditText) findViewById(R.id.point3_edit);
-        EditText p4 = (EditText) findViewById(R.id.point4_edit);
+        EditText p1 = findViewById(R.id.point1_edit);
+        EditText p2 = findViewById(R.id.point2_edit);
+        EditText p3 = findViewById(R.id.point3_edit);
+        EditText p4 = findViewById(R.id.point4_edit);
         p1.setText(String.valueOf(question_4_points));
         p2.setText(String.valueOf(question_2_points));
         p3.setText(String.valueOf(question_3_points));
