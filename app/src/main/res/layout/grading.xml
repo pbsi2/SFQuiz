@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/question0_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/question" />
+
+        <EditText
+            android:id="@+id/try0_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:ems="10"
+            android:text="Tries" />
+
+        <EditText
+            android:id="@+id/point0_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:ems="10"
+            android:text="Points" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/question1_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/Ques1" />
+
+        <EditText
+            android:id="@+id/try1_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:onClick="firstQuestion"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/point1_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/question2_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/Ques2" />
+
+        <EditText
+            android:id="@+id/try2_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/point2_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/question3_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/Ques3" />
+
+        <EditText
+            android:id="@+id/try3_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/point3_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/question4_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/Ques4" />
+
+        <EditText
+            android:id="@+id/try4_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/point4_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="grade"
+        android:text="Restart" />
+</LinearLayout>
+
+
+

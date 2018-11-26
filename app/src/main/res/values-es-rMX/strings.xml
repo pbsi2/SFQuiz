@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">SF Quiz</string>
     <string name="score">Punteo:</string>
-    <string name="question">Cuestión</string>
+    <string name="question">Cuestión #</string>
     <string name="Ques1">Los nombres de Verne y Wells</string>
     <string name="askquestion">Cuestión</string>
     <string name="ans1_2">Gabriel y George</string>
