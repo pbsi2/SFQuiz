@@ -202,9 +202,14 @@ public class MainActivity extends AppCompatActivity {
         EditText p2 = findViewById(R.id.point2_edit);
         EditText p3 = findViewById(R.id.point3_edit);
         EditText p4 = findViewById(R.id.point4_edit);
-        p1.setText(String.valueOf(question_4_points));
+        p1.setText(String.valueOf(question_1_points));
         p2.setText(String.valueOf(question_2_points));
         p3.setText(String.valueOf(question_3_points));
         p4.setText(String.valueOf(question_4_points));
+        String sscore = "Question 1: " + " Tries: " + question_1_tries + " Points: " + question_1_points;
+        sscore += "\nQuestion 2: " + " Tries: " + question_2_tries + " Points: " + question_2_points;
+        sscore += "\nQuestion 3: " + " Tries: " + question_3_tries + " Points: " + question_3_points;
+        sscore += "\nQuestion 4: " + " Tries: " + question_4_tries + " Points: " + question_4_points;
+        Toast.makeText(getApplicationContext(), sscore, Toast.LENGTH_LONG).show();
     }
 }
